@@ -15,25 +15,31 @@ Live project: <a href="place link here" target="_blank">Bright Futures</a>
 
 <h2 align="center" id="TOC">Table of Contents</h2>
 
-* [ABright Futures](#bright-futures)
+* [Bright Futures](#bright-futures)
   - [Introduction](#introduction)
   - [Table of Contents](#TOC)
   - [Project Ouline](#project-outline)
 * [Project Planning](#project-planning)
     - [UX Design](#ux-design)
-      - [User Stories](#user-stories)
-      - [Colors](#colors)
-      - [Fonts](#fonts)
-      - [Imagery](#imagery)
-      - [Wireframes](#wireframes)
-* [Features](#features)
-  - [General Features](#general-features)
-    - [Navigation and Hero Section](#navigation-and-hero-section)
-    - [Bootstrap Cards](#bootstrap-cards)
-    - [Policies Section](#policies-section)
-    - [Footer](#footer)
-    - [Links and Buttons](#links-and-buttons)
-  - [Resnposive Design](#responsive-design)
+      - [Strategy](#strategy)
+        - [User Stories](#user-stories)
+      - [Scope](#scope)
+        - [Features](#features)
+            - [Navigation and Hero Section](#navigation-and-hero-section)
+            - [Bootstrap Grid/Cards](#bootstrap-grid-cards)
+            - [Book a talk/Volunteer](#book-a-talk-volunteer)
+            - [Resources](#resources-section)
+            - [Footer](#footer)
+            - [Links and Buttons](#links-and-buttons)
+      - [Structure](#structure)
+        - []()
+      - [Skeleton](#skeleton)
+        - [Wireframes](#wireframes)
+      - [Surface](#surface)        
+        - [Colors](#colors)
+        - [Fonts](#fonts)
+        - [Imagery](#imagery)
+        - [Resnposive Design](#responsive-design) 
 * [Built With](#built-with)
   - [Technology and Languages](#technologies-and-languages)
   - [Libraries and Frameworks](#libraries-and-frameworks)
@@ -171,6 +177,7 @@ I designed the website using wireframes by utilising the Balsamiq software [Bals
 **Desktop Wireframes**
 ![Desktop Wireframe 1](/documentation/images/wireframe-desktop-1.webp)
 ![Desktop Wireframe 2](/documentation/images/wireframe-desktop-2.webp)
+
 
 <hr>
 <p align="right"><a href="#add link here">Back To Top</a></p>
@@ -367,9 +374,9 @@ The additional [research](/documentation/research.md) has been compiled into lis
 
 ### Acknowledgements
 
-- Rhiannon and Jessie for providing feedback on the user experience and colors based on their experience working with autistic children and adults.
-- Julia for providing feedback on design and navigation and also identifying typos.
-- Space_Mumma for providing feedback on design and also inadvertently corroborating my decision to use the astronaut character for this project.
+- Dawn, Amanda, Joanna, Maja, Maebh (fellow C.I. Bottcamp peers) for providing feedback on ... in particular...
+- Dillon (our facilitator) for providing feedback on.... in particular.....
+- My family for providing feedback on ... in particularr...
 
 <hr>
 <p align="right"><a href="#add link here">Back To Top</a></p>
