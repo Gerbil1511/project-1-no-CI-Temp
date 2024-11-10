@@ -1,15 +1,13 @@
 
 
 
-.hero {
-  background: url('hero-image.jpg') no-repeat center center;
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  color: white;
+#hero {
+    background-color: #0750c4;
+    background: url(../images/inc-div.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    margin-bottom: 50px;
+    height:400px;
 }
-.hero-text {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-}
+

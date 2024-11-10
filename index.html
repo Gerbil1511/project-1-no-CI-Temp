@@ -9,78 +9,90 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <!-- Custom CSS -->
-  <link href="style.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="assets/images/" alt="" class="logo"> Bright Futures</a>
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="" alt="" class="logo"> Bright Futures</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="booking.html">Book a talk or Volunteer with
-                    us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="research.html">Research</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Resources
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="resources.html#books">Books</a></li>
-                    <li><a class="dropdown-item" href="resources.html#posters">Download posters</a></li>
-                    <li><a class="dropdown-item" href="resources.html#videos">YouTube videos</a></li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="booking.html">Book a talk or Volunteer with
+              us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="research.html">Research</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Resources
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="resources.html#books">Books</a></li>
+              <li><a class="dropdown-item" href="resources.html#posters">Download posters</a></li>
+              <li><a class="dropdown-item" href="resources.html#videos">YouTube videos</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
-    </div>
-</div>
-</nav>
-
-
-  <header id="header" class="container section">
-    <div class="row">
-      <div class="col-12 col-xl-6 text-center text-xl-start">
-        <h1 class="display-3">Welcome to Bright Futures</h1>
-        <p class="lead display-6 sub-heading-color">The importance of Diversity and Inclusion education for children.
-        </p>
-        <p class="my-4">Welcome to our website, dedicated to promoting diversity and inclusion for primary school age
-          children. Teaching these concepts is crucial for a child's educational and personal development, as it
-          fosters a more compassionate, empathetic, and inclusive society. In today's diverse world, it is essential
-          to equip children with the skills to appreciate and respect differences in culture, race, gender, ability,
-          and more.
-          By introducing these concepts at a young age through stories, games, and everyday interactions, you can help
-          children understand that everyone has something special to offer. Our site provides a wealth of resources,
-          including book recommendations, videos and printable posters, all designed to make
-          teaching diversity and inclusion fun and engaging. We aim to support parents and teachers in creating an
-          inclusive environment where children can grow, learn, and thrive, raising a generation committed to making
-          the world a more inclusive and harmonious place.</p>
-
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary sharp-corners custom-button" data-bs-toggle="modal"
-          data-bs-target="#modal">
-          Book a talk!
-        </button>
       </div>
-      <!-- hero image -->
     </div>
-    </div>
+  </nav>
+
+  <!-- Header Image -->
+   <div class="container mt-4 mb-3">
+    <h1 class="display-1 text-center"><strong>Welcome to Bright Futures</strong></h1>
+   </div>
+  <header id="hero" class="container">
+    <!-- <h1 class="display-4 text-center"><strong>Welcome to Bright Futures</strong></h1> -->
+    <!-- section with hero image -->
+    <section class="row">
+      <!-- text-center class used to centre all text inside column  -->
+      <div class="col-12 mt-2 text-center header-text">
+        <!-- mb-5 gives extra margin spacing under subheading -->
+        <h2 class="display-6 mb-5">Guiding parents and teachers in the provision of Diversity and Inclusion education
+          for young children.</h2>
+      </div>
+    </section>
   </header>
+  
+
+  <p class="my-4">Welcome to our website, dedicated to promoting diversity and inclusion for primary school age
+    children. Teaching these concepts is crucial for a child's educational and personal development, as it
+    fosters a more compassionate, empathetic, and inclusive society. In today's diverse world, it is essential
+    to equip children with the skills to appreciate and respect differences in culture, race, gender, ability,
+    and more.
+    By introducing these concepts at a young age through stories, games, and everyday interactions, you can help
+    children understand that everyone has something special to offer. Our site provides a wealth of resources,
+    including book recommendations, videos and printable posters, all designed to make
+    teaching diversity and inclusion fun and engaging. We aim to support parents and teachers in creating an
+    inclusive environment where children can grow, learn, and thrive, raising a generation committed to making
+    the world a more inclusive and harmonious place.</p>
+  <!-- Button trigger modal -->
+  <div class="d-flex justify-content-center">
+    <button type="button" class="btn btn-primary sharp-corners custom-button" data-bs-toggle="modal"
+      data-bs-target="#modal">
+      Book a talk!
+    </button>
+  </div>
+  </div>
+  </div>
+
+
+
 
   <!-- main element to hold all key sections of the homepage. It is NOT part of the grid structure -->
   <main>
@@ -88,87 +100,143 @@
     <div class="container my-5">
       <div class="row mb-5">
         <div class="col-md-6">
-          <img src="section1-image.jpg" class="img-fluid" alt="Section 1">
+          <div class="card h-100">
+            <img src="assets/images/running.webp" class="card-img-top" alt="A group of young children running together">
+            <div class="card-body">
+              <h2 class="card-title mt-2 mb-3">What is Diversity?</h2>
+              <p class="card-text"><strong>Diversity</strong> is when there are many different kinds of people, things,
+                or ideas all
+                together. Imagine you have a big box of crayons with lots of different colors like red, blue, green, and
+                yellow. Each color is
+                unique and special in its own way, and when you use all of them together, you can create a beautiful and
+                interesting picture.In the same way, people are different too.
+                <br>
+                <br>
+                Some have different skin colors, some speak different languages and some have different customs or
+                traditions. This diversity makes the world a more interesting and
+                fun place to live in, just like how all the different crayon colors make your picture special. So,
+                diversity is all about celebrating and appreciating all the unique things that make each person special.
+              </p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <h2>What is Diversity</h2>
-          <p>Some text about diversity?</p>
+          <div class="card h-100">
+            <img src="assets/images/corridor.webp" class="card-img-top"
+              alt="An adult reads a story to a small group of children">
+            <div class="card-body">
+              <h2 class="card-title mt-2 mb-3">What is Inclusion?</h2>
+              <p class="card-text"><strong>Inclusion</strong> is when everyone feels welcome and included, no matter how
+                different they
+                are. Imagine you're playing a game with your friends, and you make sure that every single person gets
+                to join in and have fun. You don't leave anyone out, and you make sure everyone feels happy and part of
+                the group.<br>
+                <br>
+                In the same way, inclusion means making sure that everyone, no matter what they look like, where they
+                come from, or what they can do, feels like they belong. It's about being kind, respectful, and making
+                sure everyone has an equal chance to participate and enjoy things together. So, inclusion is all about
+                creating a friendly and fair environment where everyone feels valued and included.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row mb-5">
-        <div class="col-md-6 order-md-2">
-          <img src="section2-image.jpg" class="img-fluid" alt="Section 2">
-        </div>
-        <div class="col-md-6 order-md-1">
-          <h2>Volunteer with us!</h2>
-          <p>Some text about becoming a Bright Futures Ambassador</p>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="modal">Become a Bright
-            Futures Ambassador</a>
-        </div>
-      </div>
-      <div class="row mb-5">
-        <div class="col-md-6">
-          <img src="section3-image.jpg" class="img-fluid" alt="Section 3">
-        </div>
-        <div class="col-md-6">
-          <h2>What is inclusion?</h2>
-          <p>Some text about inclusion</p>
-        </div>
-      </div>
+
       <div class="row mb-5">
         <div class="col-md-6 order-md-2">
           <img src="section4-image.jpg" class="img-fluid" alt="Section 4">
         </div>
         <div class="col-md-6 order-md-1">
-          <h2>Who are we?</h2>
-          <p>Some text about who Bright Futures are</p>
+          <h2>Section 4</h2>
+          <p>Some text about section 4.</p>
         </div>
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer id="contact" class="bg-light text-center text-lg-start">
-      <div class="container section p-4">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Contact Us</h5>
-            <p>
-              Address: 123 Bright Street, Future City, 12345<br>
-              Email: info@brightfutures.com<br>
-              Phone: +123 456 7890
-            </p>
-          </div>
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Follow Us</h5>
-            <a href="#" class="me-4 text-reset">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="me-4 text-reset">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="me-4 text-reset">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#" class="me-4 text-reset">
-              <i class="fab fa-linkedin"></i>
-            </a>
+      <div class="container my-5">
+        <div class="row mb-5">
+          <div class="col-md-12 order-md-2">
+            <img src="assets/images/recorders.webp" class="img-fluid"
+              alt="Three children with limb differences playing musical recorder instruments">
+            <p>Bright Futures Mission Statement:
+              "At Bright Futures, our mission is to educate and inspire children to embrace diversity, inclusion, and
+              social justice through creative and engaging programs, fostering a more compassionate, empathetic, and
+              inclusive society for all."
+              Values
+              <ul>
+              Bright Futures Values:
+              <li>Inclusivity: We believe in creating an environment where every individual feels valued, respected, and
+              included.</li>
+              <li>Empathy: We promote understanding and compassion towards others, encouraging children to see the world
+              from different perspectives.</li>
+              <li>Diversity: We celebrate the unique identities and experiences of all individuals, recognizing the strength
+              that diversity brings to our communities.</li>
+              <li>Education: We are committed to providing high-quality, engaging educational programs that make learning
+              about diversity and inclusion fun and accessible.</li>
+              <li>Community: We strive to build strong relationships with schools and communities, working together to
+              promote positive social change.</li>
+              <li>Creativity: We use innovative and creative approaches to educate children, making learning an enjoyable
+              and interactive experience.</li>
+              <li>Integrity: We operate with honesty, transparency, and integrity in all our interactions, ensuring trust
+              and credibility in our mission.</li>
+              <li>Empowerment: We empower children to become active participants in creating a more inclusive and just
+              society, equipping them with the skills and confidence to make a positive impact.</li>
+              <li>Collaboration: We believe in the power of collaboration and partnership, working with educators, parents,
+              and community leaders to achieve our mission.</li>
+              These values guide our actions and decisions, ensuring that we remain true to our mission of promoting
+              diversity, inclusion, and social justice for the next generation.
+            </ul>
+          </p>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </main>
 
-    <!-- Modal form -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content sharp-corners">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Book a talk with a Bright Futures Ambassador, or Volunteer to become and ambassador.
-            </h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <p> Please complete all fields in the form with your details and select the appropriate option below.
-            </p>
+  <!-- Footer -->
+  <footer id="contact" class="bg-light text-center">
+    <div class="container section p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-start">
+          <h5 class="text-uppercase">Contact Us</h5>
+          <p>
+            Address: 123 Bright Street, Future City, 12345<br>
+            Email: info@brightfutures.com<br>
+            Phone: +123 456 7890
+          </p>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-lg-end">
+          <h5 class="text-uppercase ">Follow Us</h5>
+          <a href="#" class="me-4 ms-lg-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal form -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content sharp-corners">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Book a talk with a Bright Futures Ambassador, or
+            Volunteer to become and ambassador.
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p> Please complete all fields in the form with your details and select the appropriate option below.
+          </p>
           <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
             <form class="row g-3">
               <div class="col-lg-6">
