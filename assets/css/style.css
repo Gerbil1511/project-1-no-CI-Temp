@@ -11,3 +11,10 @@
     height:400px;
 }
 
+
+.list-image {
+    width: auto; /* Adjust the size as needed */
+    height: 40px;
+    margin-right: 10px; /* Space between the image and the text */
+    vertical-align: middle; /* Align the image with the middle of the text */
+  }
